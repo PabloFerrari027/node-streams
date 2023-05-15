@@ -21,6 +21,20 @@ Clone the project and access the project folder.
 $ git clone git@github.com:PabloFerrari013/node-streams.git
 $ cd node-streams
 ```
+Add the .env file, and add the environment variables:
+```bash
+# Application port (default 3333)
+PORT: 
+
+# Your AWS access key:
+AWS_ACCESS_KEY: 
+
+# Your AWS secret key
+AWS_SECRET_KEY: 
+
+# Your bucket name:
+AWS_BUCKET_NAME: 
+```
 
 To start it, follow the steps below:
 ```bash
@@ -30,4 +44,4 @@ $ yarn
 # Start the project
 yarn dev
 ```
-The app is available in your browser at http://localhost:3333/
+Server is running in port 3333 🚀🔥
